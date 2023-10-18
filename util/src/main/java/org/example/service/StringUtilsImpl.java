@@ -18,10 +18,7 @@ public class StringUtilsImpl implements StringUtils {
         }
         try {
             double number = Double.parseDouble(str.replace(",", "."));
-            if (number <= 0) {
-                return false;
-            }
-            return true;
+            return !(number <= 0);
         } catch (NumberFormatException e) {
             return false;
         }
