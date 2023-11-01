@@ -2,7 +2,6 @@ package org.example;
 
 import java.util.Scanner;
 import org.example.service.StringUtils;
-import org.example.service.StringUtilsImpl;
 
 /**
  * Главный класс приложения для проверки, является ли введенное значение положительным числом.
@@ -35,7 +34,7 @@ public class Main {
      * @param input Введенная строка для проверки.
      */
     private static void validateAndPrintResult(String input) {
-        StringUtils utils = new StringUtilsImpl();
+        StringUtils utils = new StringUtils();
 
         if (utils.isPositiveNumber(input)) {
             System.out.println("Введенное значение является положительным числом.");

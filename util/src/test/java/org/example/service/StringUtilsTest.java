@@ -5,8 +5,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
-class StringUtilsImplTest {
-    StringUtils utils = new StringUtilsImpl();
+class StringUtilsTest {
+    StringUtils utils = new StringUtils();
 
     @Test
     void isPositiveNumber_true() {

@@ -7,8 +7,10 @@ Task
 4. Манифест файл должен содержать имя и версию вашего .jar файла 
 ![](util/src/main/resources/img.png) 
 5. В вашем .jar файле должен быть class StringUtils с методом boolean isPositiveNumber(String str) 
-6. Написать один unit test для проверки этого метода (использовать JUnit 5). 
+6. Написать один unit test для проверки этого метода (использовать JUnit 5).
+
 ![](util/src/main/resources/img_2.png)
+
 7. Заполнить и отправить форму 
 ![](util/src/main/resources/img_1.png)
 
