@@ -1,0 +1,5 @@
+rootProject.name = 'CleverGradleUtils'
+include 'util'
+include 'core'
+include 'api'
+
